@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <div className= "flex items-center justify-between p-5 border-b">
         {user&&(
-            <h1 className="text-2xl">
+            <h1 className="text-2xl font-semibold">
                 {user?.firstName}
             {`'s`} Compendium
             </h1>
